@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: #0D1018;
+    font-family: 'Roboto Mono', monospace;
+    color: aliceblue;
+}
+
+/* Navbar */ 
+nav{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    height: 10%;
+}
+
+li{
+    list-style-type: none; /* To remove dots on li */
+}
+
+.a-items{
+    text-decoration: none;
+    color: white;
+    font-size: 19px;
+}
+
+
+.navLogotext{
+    font-size: 35px;
+    text-decoration: none;
+    color: white;
+}
+
+.ul-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.nav-ul-container{
+    width: 20%;
+}
+
+/* Busieness Info */ 
+.business-info{
+    margin: 20px 0px 20px 0px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.twr-image{
+    width: 150px;
+}
+
+.business-name{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.main-container{
+    height: 300px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.info{
+    color: black;
+    margin: 10px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+/*Div container info displaying in index */ 
+.info-text{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+
+}
+/*Removes line under the text in a */ 
+.button-services{
+    text-decoration: none;
+    color: black;
+}
+
+.doge{
+    width: 450px;
+}
+
+/*Opinion boxes */
+.opinion-container{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 30%;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-opinion{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    height: 35%;
+    justify-content: space-evenly;
+
+}
+
+.box-text{
+    color: #0D1018;
+}
+
+/*Footer*/
+.footer-info{
+    margin: 19px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 15%;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    height: 10%;
+    background-color: white;
+}
+
+.footer-text{
+    color: black;
+    font-weight: bold;
+}
+
+/*Services html */
+
+
+.offered-services{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 40%;
+    background-color: white;
+}
+
+/*Card services text */
+.card-text-services{
+    color: #0D1018;
+}
+
+.filler-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 150px;
+    align-items: center;
+}
+
+/*Register a pet page*/
+.register-container{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+
+.register-table-container{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+}
+.table-view{
+    width: 40%;
+    margin: 50px;
+}
+
+#tableContainer{
+    width: 100%;
+}
+
+#petsTable{
+    width: 100%;
+}
